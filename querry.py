@@ -48,7 +48,7 @@ class PixelTod:
         return {key: value for key, value in (i.split('=') for i in unquote(data).split('&'))}
 
     def main(self):
-        action = int(input(f'{Fore.LIGHTBLUE_EX}Выберите действие:\n{Fore.LIGHTWHITE_EX}1. Начать фарм\n{Fore.LIGHTWHITE_EX}2. Создать сессию\n>'))
+        action = int(input(f'{Fore.LIGHTBLUE_EX}Выберите действие:\n{Fore.LIGHTWHITE_EX}1. Начать создание\n{Fore.LIGHTWHITE_EX}2. Создать сессию\n>'))
 
         if not os.path.exists('sessions'):
             os.mkdir('sessions')
