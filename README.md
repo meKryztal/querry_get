@@ -1,19 +1,25 @@
-![photo_2024-10-03_00-39-29](https://github.com/user-attachments/assets/70745e5e-4fb0-4fc7-a926-06e0c8dad444)
 
-Вас попросит указать данные аппки
-```
-Для рефки, берете свою рефку и вытаскиваете данные после равно 
-```
-![photo_2024-10-03_00-43-06](https://github.com/user-attachments/assets/2f2ceb11-9526-4310-b448-1e194ed3124c)
+![photo_2024-10-04_13-08-20](https://github.com/user-attachments/assets/a3b6811c-4909-4fa7-8864-23563f252df5)
 
-Название бота искать в нике, без @
+## Вас попросит указать данные аппки, берете рефку и вытаскиваете из нее даные 
 
-![photo_2024-10-03_00-55-31](https://github.com/user-attachments/assets/e6b8d40f-7058-45c8-960b-7416a14bef17)
+```
+Первый пункт - рефка после = 
+```
+![photo_2024-10-04_13-00-33](https://github.com/user-attachments/assets/d60aa215-93a3-4497-8da7-ff9697387f51)
 
-С названием все сложнее, нужно пробовать раные варианты
 ```
-app или название через _ или название слитно
+Второй пункт - название
 ```
+![photo_2024-10-04_13-01-56](https://github.com/user-attachments/assets/15ce725b-a490-45f3-b8dd-3da67de5e6ff)
+
+```
+Третий пункт - короткое имя
+```
+![photo_2024-10-04_13-03-54](https://github.com/user-attachments/assets/1c8951c4-27b4-4547-8b90-4d1c905ee9fe)
+
+Если после названия нету короткого имени, значит пробуйте вводить просто название (tonxdao_bot) или без _bot (tonxdao)
+
 
 ### Получить API_ID and API_HASH можно тут: https://my.telegram.org
 
