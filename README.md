@@ -1,3 +1,9 @@
+<div align="right">
+  <a href="https://github.com/meKryztal">
+    <img src="https://github.com/user-attachments/assets/c381e8c0-e56a-4134-b333-4ec0dffab514" alt="donate" width="150">
+  </a>
+</div>
+
 
 ![photo_2024-10-04_13-08-20](https://github.com/user-attachments/assets/a3b6811c-4909-4fa7-8864-23563f252df5)
 
