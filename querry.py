@@ -48,7 +48,7 @@ class PixelTod:
         return {key: value for key, value in (i.split('=') for i in unquote(data).split('&'))}
 
     def main(self):
-        action = int(input(f'{Fore.LIGHTBLUE_EX}Выберите действие:\n{Fore.LIGHTWHITE_EX}1. Начать создание\n{Fore.LIGHTWHITE_EX}2. Создать сессию\n>'))
+        action = int(input(f'{Fore.LIGHTBLUE_EX}Выберите действие:\n{Fore.LIGHTWHITE_EX}1. Начать создание querry\n{Fore.LIGHTWHITE_EX}2. Создать сессию\n>'))
 
         if not os.path.exists('sessions'):
             os.mkdir('sessions')
@@ -64,9 +64,9 @@ class PixelTod:
                 raise ValueError(f"{Fore.LIGHTRED_EX}Нет валидных сессий")
             ref = input(f"{Fore.LIGHTYELLOW_EX}Укажите рефку:\n")
             self.ref = ref
-            peer = input(f"{Fore.LIGHTYELLOW_EX}Укажите название бота где @, но без @:\n")
+            peer = input(f"{Fore.LIGHTYELLOW_EX}Укажите название бота:\n")
             self.peer = peer
-            name = input(f"{Fore.LIGHTYELLOW_EX}Укажите название апки:\n")
+            name = input(f"{Fore.LIGHTYELLOW_EX}Укажите короткое имя:\n")
             self.name = name
             while True:
                 for idx, account in enumerate(accounts):
